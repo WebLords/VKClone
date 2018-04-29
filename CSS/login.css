@@ -7,6 +7,8 @@
 }
 body {
 	margin:0;
+	background-color:#edeef0;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 #page_header > img {
 	float:left;
@@ -27,13 +29,59 @@ body {
 	background-size: 20px 20px;
 	background-position-x: 5px;
 	background-position-y: 4px;
+	padding-left:30px;
 }
 #page_header > input:focus {
 	background-color:#ffffff;
 }
 ::placeholder {
-	padding-left:30px;
 	color:#81adbb;
 	font-size: 13px;
 	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.login {
+	margin-left:793px;
+	margin-top:30px;
+	width: 270px;
+	background-color:#ffffff;
+	padding:25px;	
+	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+.menuLoginp {
+	display: block;
+	margin:0px 0px 20px;
+	padding:6px 12px 8px;
+	width:100%;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d3d9de;
+	height: 35px;
+}
+.menuLogbot {
+	margin:0px;
+	font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+	padding: 7px 16px 8px;
+	width: 100px;
+	border: 0;
+	background-color: #5181b8;
+    color: #fff;
+    margin-right: 15px;
+}
+.noPassword {
+	color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+	font-size: 13px;
+}
+form {
+	margin:0px;
+}
+.menuLogbot:hover {
+	background-color:#5181b8e8;
+}
+.noPassword:hover {
+	text-decoration:underline;
 }
