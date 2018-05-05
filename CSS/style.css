@@ -1,6 +1,38 @@
 body{
 margin: 0px auto;
-
+font-family:Arial;
+}
+#page_header {
+    position: relative;
+    height: 42px;
+    margin: 0;
+    font-size: 12.5px;
+	background-color:#44678d;
+}
+#page_header > img {
+	float:left;
+	margin-left:150px;
+	position:relative;
+}
+#page_header > input {
+	float:left;
+	margin-left:126px;
+	margin-top:7px;
+	outline: none;
+	border-radius: 20px;
+	width:230px;
+	height: 28px;
+	background: #224b7a;
+	border-width:0px;
+	background-image:url(../IMG/поиск.png);
+	background-repeat: no-repeat; /*Убираем повтор изображения*/   
+	background-size: 20px 20px;
+	background-position-x: 5px;
+	background-position-y: 4px;
+	padding-left:30px;
+}
+#page_header > input:focus {
+	background-color:#ffffff;
 }
 input{
 background-color:#ffffff;
@@ -22,7 +54,6 @@ margin-left:20%;
 }
 li {
     list-style-type: none;
-	font-family:Arial;
 	cursor:pointer;
 	padding-top:5px;
 	
@@ -51,5 +82,17 @@ li {
    }
    ul{
    padding:0px;
+   
+   }
+   #center{
+    background-color:#ffffff;
+    width:1920px;
+   
+   
+   }
+   #history{
+    background-color:#ffffff;
+   
+   
    
    }
