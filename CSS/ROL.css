@@ -98,3 +98,12 @@ form {
 .noPassword:hover {
 	text-decoration:underline;
 }
+.msg_text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 150%;
+	padding: 20px;
+	border-color: #f2ab99;
+	border-style:solid;
+	background-color:#ffefe9;
+}
