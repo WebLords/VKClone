@@ -16,12 +16,15 @@
 	</div>
 	<center>
 	<p class="stells" >ВВЕСТИ ДАННЫЕ ЗДЕСЬ: </p>
-	<form action="handler.php">
-   <p><strong>Логин:</strong> 
-    <input maxlength="25" size="40" name="login"></p>
-   <p><strong>Пароль:</strong> 
-    <input type="password" maxlength="25" size="40" name="password"></p>
-  </form>
-	<button class="menuLogbot" id="index_login_button">Войти</button>
+	<center>
+	<center>
+	<div class="login">
+			<form action="https://google.ru/">
+				<input class="menuLoginp" type="text" name="email" id="index_email" value="" placeholder="Телефон или email">
+				<input class="menuLoginp" type="password" name="pass" id="index_pass" value="" placeholder="Пароль" onkeyup="toggle('index_expire', !!this.value);toggle('index_forgot', !this.value)">
+				<button class="menuLogbot" id="index_login_button">Войти</button>
+				<a id="index_forgot" class="noPassword" href="/restore" target="_top">Забыли пароль?</a>
+            </form>
+		</div>
 	</center>
 </html>
