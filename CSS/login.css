@@ -40,7 +40,7 @@ body {
 	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
 .login {
-	margin-left:793px;
+	float:right;
 	margin-top:30px;
 	width: 270px;
 	background-color:#ffffff;
@@ -84,4 +84,13 @@ form {
 }
 .noPassword:hover {
 	text-decoration:underline;
+}
+
+#popka {
+	float:left;
+}
+
+.banan {
+	width: 1020px;
+	margin:auto;
 }
